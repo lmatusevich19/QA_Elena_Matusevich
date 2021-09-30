@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="Task7.css">
+    <title>QA_TeachMeSkills by Elena Matusevich</title>
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+<script>
+    function sayHi() {
+        alert('Hello. My name is Elena. I very want to work as a QA tester.')
+    }
+</script>
+<p class="d-flex justify-content-center mt-5">
+    <a class="btn btn-primary mx-2" data-bs-toggle="collapse" href="#table" role="button" aria-expanded="false"
+       aria-controls="table">
+        HTML Table tag
+    </a>
+    <a class="btn btn-primary mx-2" data-bs-toggle="collapse" href="#input" role="button" aria-expanded="false"
+       aria-controls="input">
+        HTML input tag
+    </a>
+    <a class="btn btn-primary mx-2" data-bs-toggle="collapse" href="#checkbox" role="button" aria-expanded="false"
+       aria-controls="checkbox">
+        HTML Checkbox tag
+    </a>
+    <a class="btn btn-primary mx-2" data-bs-toggle="collapse" href="#select" role="button" aria-expanded="false"
+       aria-controls="select">
+        HTML Select tag
+    </a>
+    <a class="btn btn-primary mx-2" data-bs-toggle="collapse" href="#button" role="button" aria-expanded="false"
+       aria-controls="button">
+        HTML Button tag
+    </a>
+    <a class="btn btn-primary mx-2" data-bs-toggle="collapse" href="#image" role="button" aria-expanded="false"
+       aria-controls="image">
+        HTML Image tag
+    </a>
+    <a class="btn btn-primary mx-2" data-bs-toggle="collapse" href="#p" role="button" aria-expanded="false"
+       aria-controls="p">
+        HTML p tag
+    </a>
+    <a class="btn btn-primary mx-2" data-bs-toggle="collapse" href="#a" role="button" aria-expanded="false"
+       aria-controls="a">
+        HTML a tag
+    </a>
+</p>
+<div class="collapse collapse-override position-absolute top-50 start-50 translate-middle" id="table">
+    <div class="card card-body">
+        <table class="table table-success table-striped">
+            <thead>
+            <tr class="table-tr">
+                <th>id</th>
+                <th>login</th>
+                <th>password</th>
+            </tr>
+            </thead>
+            <tbody id="content">
+            <tr class="table-tr">
+                <th>1</th>
+                <th>denis</th>
+                <th>1111</th>
+            </tr>
+            <tr class="table-tr">
+                <th>2</th>
+                <th>elena</th>
+                <th>0000</th>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="collapse collapse-override position-absolute top-50 start-50 translate-middle input-group input-group-sm mb-3 input-group mb-3"
+     id="input">
+    <span class="input-group-text" id="inputGroup-sizing-default">Login</span>
+    <input type="text" class="form-control" aria-label="Sizing example input"
+           aria-describedby="inputGroup-sizing-default" name="login" id="login">
+</div>
+<div class="collapse collapse-override position-absolute top-50 start-50 translate-middle" id="checkbox">
+    <div class="card card-body">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                Default checkbox
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+                Checked checkbox
+            </label>
+        </div>
+    </div>
+</div>
+<div class="collapse collapse-override position-absolute top-50 start-50 translate-middle" id="select">
+    <div class="card card-body">
+        <select class="form-select form-select-lg mb-3" name="select">
+            <option value="value1">Red</option>
+            <option value="value2" selected>Green</option>
+            <option value="value3">Blue</option>
+        </select>
+    </div>
+</div>
+<div class="collapse collapse-override position-absolute top-50 start-50 translate-middle" id="button">
+    <div class="card card-body">
+        <button class="btn btn-primary" onclick="sayHi()">Click me</button>
+    </div>
+</div>
+<div class="collapse collapse-override position-absolute top-50 start-50 translate-middle" id="image">
+    <div class="card card-body">
+        <img src="https://i.redd.it/90bh9g6yepg41.jpg">
+    </div>
+</div>
+<div class="collapse collapse-override position-absolute top-50 start-50 translate-middle" id="p">
+    <div class="card card-body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+            est
+            laborum.</p>
+    </div>
+</div>
+<div class="collapse collapse-override position-absolute top-50 start-50 translate-middle" id="a">
+    <div class="card card-body">
+        <a href="https://teachmeskills.by/">teachmeskills.by</a>
+    </div>
+</div>
+</body>
+</html>
